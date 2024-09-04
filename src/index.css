@@ -17,3 +17,30 @@ body{
 .radius{
 border-radius: 55% 45% 58% 42% / 27% 20% 80% 73% ;
 }
+
+
+.border-alternate-corners {
+    position: relative;
+}
+
+.border-alternate-corners::before,
+.border-alternate-corners::after {
+    content: "";
+    position: absolute;
+    border-color: white;
+    border-style: solid;
+}
+
+.border-alternate-corners::before {
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-width: 2px 0 0 2px; /* Top and left borders */
+}
+
+.border-alternate-corners::after {
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    border-width: 0 2px 2px 0; /* Right and bottom borders */
+}

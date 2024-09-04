@@ -43,11 +43,12 @@ const sliders = {
       
         {
             certificate.map((item)=>{
-                return <div variants={slider} key={item.id} className= '  w-72 h-52 md:w-80 md:h-56 hover:scale-110  duration-300'>
-   
-                                                                 <a href={item.url} variants={slider}> <img src={item.image} className=' w-full h-full object-cover' alt="" /></a>      
-                          
-                      </div>
+                return <div variants={slider} key={item.id} className='w-72 h-52 md:w-80 md:h-56 hover:scale-110 duration-300 p-4 border-alternate-corners'>
+                <a href={item.url} variants={slider}>
+                    <img src={item.image} className='w-full h-full object-cover' alt="" />
+                </a>
+             </div>
+             
               }) 
             }
 
