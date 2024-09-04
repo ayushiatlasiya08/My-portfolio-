@@ -44,12 +44,14 @@ const sliders = {
             <h1 className='  text-2xl  lg:text-3xl font-bold'> About me </h1>
             <div className=' mx-auto mt-1 w-20 h-1 bg-[#2995b2]'></div>
         </div>
-   <div className=' mt-8 lg:mt-0 p-8  lg:p-20  '>
-        <h1 className=' text-white text-pretty text-base lg:text-lg '>
-        Hello,Hello! I'm Ayushi Atlasiya, a passionate Computer Science graduate with a keen interest in web development. Over the years, I’ve honed my skills in technologies like React.js, Java, and Node.js, focusing on building user-centric web applications that are both visually appealing and highly functional. 
-        I have hands-on experience in developing and implementing user interface components, collaborating with back-end teams, and integrating services and APIs into dynamic platforms. My recent work at Walkover Web Solutions, along with internships and academic projects, has provided me with the opportunity to contribute 
-        to impactful technology solutions. I’m always excited to learn and embrace new challenges, continuously aiming to improve my skills and stay up-to-date with the latest industry trends. In addition to development, I’m passionate about creating clean, efficient code and delivering solutions that offer an optimal user experience across various devices.</h1>
-   </div> 
+        <div className='mt-8 lg:mt-0 p-8 lg:p-20 flex justify-center items-center'>
+  <h1 className='text-white text-pretty text-base lg:text-lg text-justify max-w-4xl'>
+    Hello,Hello! I'm Ayushi Atlasiya, a passionate Computer Science graduate with a keen interest in web development. Over the years, I’ve honed my skills in technologies like React.js, Java, and Node.js, focusing on building user-centric web applications that are both visually appealing and highly functional.
+    I have hands-on experience in developing and implementing user interface components, collaborating with back-end teams, and integrating services and APIs into dynamic platforms. My recent work at Walkover Web Solutions, along with internships and academic projects, has provided me with the opportunity to contribute 
+    to impactful technology solutions. I’m always excited to learn and embrace new challenges, continuously aiming to improve my skills and stay up-to-date with the latest industry trends. In addition to development, I’m passionate about creating clean, efficient code and delivering solutions that offer an optimal user experience across various devices.
+  </h1>
+</div>
+
      </div>
 
 
