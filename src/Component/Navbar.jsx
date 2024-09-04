@@ -25,7 +25,7 @@ const Navbar = () => {
   return (
       <header className=' bg-slate-900 relative z-50   w-full h-28 lg:p-5  ' >
            <nav style={{
-        backgroundColor:'#2995b2'
+        backgroundColor:'#a8c9f0'
         // backgroundColor:'#33c4ff'
        }}  className=' lg:p-5 p-4   lg:rounded-xl flex  flex-col lg:flex-row lg:gap-32 lg:items-center'>
                <div className=' flex justify-between'>
